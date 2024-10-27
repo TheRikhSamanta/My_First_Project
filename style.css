@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: min(50px, 7%);
+  background-color: rgb(13, 13, 20);
+}
+
+.cards {
+  padding: 2em;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #222429;
+  margin: 2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+img {
+  border: 2px solid #f9f871;
+  max-width: 100%;
+  height: auto;
+}
+
+.heading {
+  padding: 2em;
+  border: 5px solid #0d2e25;
+  border-radius: 3px 50px 3px 50px;
+  background-color: #463443;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 15px;
+  font-family: "Lucida Bright", "Times New Roman", Times, serif;
+  margin: 2px;
+  position: relative;
+}
